@@ -1,7 +1,7 @@
 # POS
 About Online Inventory Management System
 
-Online Inventory Management System is a simple web application develop in React Postgres database. This system contain of admin and user, the user is represent as a staff, controlled by admin, and the admin can manage the system like add user, delete, edit and more, the inventory system can manage the total of item in or out from the inventory.
+Online Inventory Management System is a simple web application develop in React and Postgres database. This system contain of admin and user, the user is represent as a staff, controlled by admin, and the admin can manage the system like add user, delete, edit and more, the inventory system can manage the total of item in or out from the inventory.
 
 # Features of the Project
 
