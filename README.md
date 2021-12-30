@@ -119,17 +119,52 @@ Online Inventory Management System is a simple web application develop in React 
 - Availability 
 - Search.
 
-# Order
-Customer Name, Customer Address, Customer Phone Number, Product, Quantity, Rate, Amount, Gross Amount, S-Charges, VAT, Discount, Net Amount.
+## Order
+- Customer Name
+- Customer Address
+- Customer Phone Number
+- Product
+- Quantity
+- Rate
+- Amount
+- Gross Amount
+- S-Charges
+- VAT
+- Discount
+- Net Amount.
 
-# Manage Orders
+## Manage Orders
 
-Add Order, Bill Numbers, Customer Name, Customer Phone Number, Date and Time, Total Products, Total Amount, Paid Status, Show Entries, and Search.
+- Add Order
+- Bill Numbers
+- Customer Name
+- Customer Phone Number
+- Date and Time
+- Total Products
+- Total Amount
+- Paid Status
+- Show Entries
+- Search.
 
-# Company
+## Company
 
-Manage Company Information, Company Name, Charge Amount, Vat Charges, Address, Phone Number, Country, Messages, Currency and Edit.
+- Manage Company Information
+- Company Name
+- Charge Amount
+- Vat Charges
+- Address
+- Phone Number
+- Country 
+- Messages
+- Currency 
+- Edit.
 
-# Profile
+## Profile
 
-Username, Email, First Name, Last Name, Gender, Phone number, Group
+- Username
+ - Email 
+ - First Name
+ - Last Name
+ - Gender
+ - Phone number
+ - Group
