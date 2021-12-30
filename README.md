@@ -3,7 +3,7 @@ About Online Inventory Management System
 
 Online Inventory Management System is a simple web application develop in React and Postgres database. This system contain of admin and user, the user is represent as a staff, controlled by admin, and the admin can manage the system like add user, delete, edit and more, the inventory system can manage the total of item in or out from the inventory.
 
-# Features of the Project
+## Features of the Project
 
     Admin Dashboard
     Users
@@ -37,33 +37,76 @@ Online Inventory Management System is a simple web application develop in React 
 - Company
 - Profile and Setting.
 
-# Add User
+## Add User
 
-Groups, Username, Email, Password, Confirm Password, First Name, Last Name, Phone Number, and Gender.
+- Groups
+- Username
+- Email 
+- Password
+- Confirm Password
+- First Name
+- Last Name
+- Phone Number
+- Gender.
 
-# Manage Users
+## Manage Users
 
-Add User, Username, Email, Name, Phone Group Show Entries, and Search.
+- Add User 
+- Username
+- Email
+- Name
+- Phone 
+- Group
+- Show Entries
+- Search
 
-# Add Group
+## Add Group
 
-Group Name, Permission, User, Groups, Brands, Category,
+- Group Name
+- Permission
+- User
+- Groups
+- Brands
+- Category
 
-# Manage group
+## Manage group
 
-Add Group, Show Entries, Group Name, Edit, and Search
+- Add Group
+- Show Entries
+- Group Name
+- Edit
+- Search
 
-# Brands
+## Brands
 
-Add Brand, Brand Name, Status, Show Entries, and Search.
+- Add Brand
+- Brand Name
+- Status
+- Show Entries
+- Search.
 
-# Category
+## Category
 
-Add Categories, Manage Category, Category Name, Status, Show Entries, and Search.
+- Add Categories
+- Manage Category
+- Category Name
+- Status
+- Show Entries
+- Search
 
 # Add Product
 
-Add Product, Image, Product Name, SKU, Price, Quantity, Description, Brands, Category, Store, and Availability.
+- Add Product
+- Image
+- Product Name
+- SKU
+- Price
+- Quantity
+- Description
+- Brands
+- Category
+- Store
+- Availability.
 
 # Manage Products
 
