@@ -25,7 +25,17 @@ Online Inventory Management System is a simple web application develop in React 
 - Add Groups 
 - Manage Groups
 - Brands
-- Category Store, Attributes, Products, Add Product, Manage Product, Orders, Add Orders, Manage Orders, Reports, Company, Profile, and Setting.
+- Category Store
+- Attributes 
+- Products 
+- Add Product 
+- Manage Product
+- Orders 
+- Add Orders
+- Manage Orders 
+- Reports 
+- Company
+- Profile and Setting.
 
 # Add User
 
