@@ -94,7 +94,7 @@ Online Inventory Management System is a simple web application develop in React 
 - Show Entries
 - Search
 
-# Add Product
+## Add Product
 
 - Add Product
 - Image
@@ -108,9 +108,16 @@ Online Inventory Management System is a simple web application develop in React 
 - Store
 - Availability.
 
-# Manage Products
+## Manage Products
 
-Show Entries, Image SKU, Product Name, Price, Quantity, Store, Availability, and Search.
+- Show Entries
+- Image SKU
+- Product Name
+- Price
+- Quantity
+- Store
+- Availability 
+- Search.
 
 # Order
 Customer Name, Customer Address, Customer Phone Number, Product, Quantity, Rate, Amount, Gross Amount, S-Charges, VAT, Discount, Net Amount.
