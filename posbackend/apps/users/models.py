@@ -78,7 +78,7 @@ class UserProfile(models.Model):
     current_level = models.IntegerField(choices=LEVELS, default=1)
 
     phone = models.CharField(max_length=50, null=True)
-    timezone = models.CharField(max_length=50, null=True)
+    # timezone = models.CharField(max_length=50, null=True)
 
     def __str__(self):
         return f'{self.name}'
