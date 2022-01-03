@@ -8,4 +8,4 @@ class Timestamps(models.Model):
     updated_at = models.DateField(auto_now=True)
 
     class Meta:
-        abstract = True
+        abstract = True 
