@@ -4,8 +4,8 @@ from django.contrib import admin
 from .models import Oder
 
 
-class OderAdmin(admin,ModelAdmin):
-    list_display = ('customer_name')
-    list_filter = ('is_admin','is_staff')
+class OderAdmin(admin.ModelAdmin):
+    list_display = ('customer_name','created_at','updated_at')
+    search_fields = ('customer_name',)
 
 admin.site.register(Oder, OderAdmin)

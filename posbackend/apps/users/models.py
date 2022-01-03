@@ -63,7 +63,7 @@ class UserProfile(models.Model):
         primary_key=True,
     )
     name = models.CharField(max_length=100)
-    bio = models.TextField(default='', blank=True)
+    # bio = models.TextField(default='', blank=True)
     preferred_name = models.CharField(max_length=100, null=True)
     avatar_url = models.CharField(max_length=255, null=True)
     # discord_name = models.CharField(max_length=100, null=True)
