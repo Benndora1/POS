@@ -8,6 +8,7 @@ class Oder(Timestamps, models.Model):
     bill_no = models.CharField(max_length=255),
     customer_name = models.CharField(max_length=255)
     customer_address = models.CharField(max_length=255)
+    # customer_phone_number = models.IntegerField()
     gross_amount = models.CharField(max_length=255)
     service_charge_rate = models.CharField(max_length=255)
     service_charge = models.CharField(max_length=255)
@@ -15,7 +16,7 @@ class Oder(Timestamps, models.Model):
     vat_charge = models.CharField(max_length=255)
     net_amount = models.CharField(max_length=255)
     discount = models.CharField(max_length=255)
-    paid_status = models.IntegerField()
+    paid_status = models.CharField(max_length=100)
     # user_id = models.ForeignKey
     
 
