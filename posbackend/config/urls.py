@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path ,include
 
+# from posbackend.apps.company.models import Company
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/users/', include('apps.users.urls')),
     path('api/v1/order/', include('apps.orders.urls')),
-    path('api/v1/products/', include('apps.products.urls'))
+    path('api/v1/products/', include('apps.products.urls')),
+    path('api/v1/company/', include('apps.company.urls'))
 ]
