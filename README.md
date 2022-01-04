@@ -5,7 +5,7 @@ Online Inventory Management System is a simple web application develop in React 
 
 ## Features of the Project
 
-    Admin Dashboard
+ *  [Admin Dashboard] (#admin)
     Users
     Groups
     Category
