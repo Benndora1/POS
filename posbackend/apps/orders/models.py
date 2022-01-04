@@ -8,7 +8,7 @@ class Oder(Timestamps, models.Model):
     bill_no = models.CharField(max_length=255),
     customer_name = models.CharField(max_length=255)
     customer_address = models.CharField(max_length=255)
-    # customer_phone_number = models.IntegerField()
+    customer_phone_number = models.IntegerField(default=10)
     gross_amount = models.CharField(max_length=255)
     service_charge_rate = models.CharField(max_length=255)
     service_charge = models.CharField(max_length=255)
