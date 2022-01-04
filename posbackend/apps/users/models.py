@@ -63,21 +63,17 @@ class UserProfile(models.Model):
         primary_key=True,
     )
     name = models.CharField(max_length=100)
-    # bio = models.TextField(default='', blank=True)
     preferred_name = models.CharField(max_length=100, null=True)
     avatar_url = models.CharField(max_length=255, null=True)
-    # discord_name = models.CharField(max_length=100, null=True)
-    # github_username = models.CharField(max_length=100)
-    # codepen_username = models.CharField(max_length=100, null=True)
-    # fcc_profile_url = models.CharField(max_length=255, null=True)
-
-    LEVELS = (
-        (1, 'Level One'),
-        (2, 'Level Two'),
-    )
-    current_level = models.IntegerField(choices=LEVELS, default=1)
-
     phone = models.CharField(max_length=50, null=True)
+
+   
+    # LEVELS = (
+    #     (1, 'Level One'),
+    #     (2, 'Level Two'),
+    # )
+    # current_level = models.IntegerField(choices=LEVELS, default=1)
+
     # timezone = models.CharField(max_length=50, null=True)
 
     def __str__(self):
