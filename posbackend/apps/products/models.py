@@ -7,8 +7,8 @@ class Products(models.Model):
     sku = models.CharField(max_length=255)
     price = models.CharField(max_length=255)
     qty = models.CharField(max_length=255)
-    # image = models.ImageField()
-    description = models.TextField()
+    image_url = models.CharField(max_length=255, null=True)
+    description = models.TextField(null=True)
     availabilty = models.CharField(max_length=100)
     # attribute_value_id
     # brand_id

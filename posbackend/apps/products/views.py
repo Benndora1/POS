@@ -6,7 +6,7 @@ from .models import Products
 class ProductsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Products
-        fields = ('name', 'sku', 'qty','price','description','availabilty')
+        fields = ('name', 'sku', 'qty','price','image_url','description','availabilty')
 class ProductsViewSet(viewsets.ModelViewSet):
     queryset = Products.objects.all()
     serializer_class = ProductsSerializer
