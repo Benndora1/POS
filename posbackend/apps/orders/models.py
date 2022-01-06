@@ -1,8 +1,10 @@
 from django.db import models
-
+from django.db.models.deletion import  SET_NULL
+from django.contrib.auth import get_user_model
 
 from apps.utils.models import Timestamps
 # Create your models here.
+User = get_user_model()
 
 class Oder(Timestamps, models.Model):
     bill_no = models.CharField(max_length=255),
@@ -17,6 +19,6 @@ class Oder(Timestamps, models.Model):
     net_amount = models.CharField(max_length=255)
     discount = models.CharField(max_length=255)
     paid_status = models.CharField(max_length=100)
-    # user_id = models.ForeignKey
+    user = models.ForeignKey(User, null=True, on_delete=SET_NULL)
     
 
