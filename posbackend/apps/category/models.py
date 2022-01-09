@@ -1,14 +1,15 @@
 from django.db import models
 
-
-
-STATUS = (
-    ('active', 'Active'),
-    ('inactive', 'Inactive'),
-)
-
+from apps.orders.models import STATUS
 
 # Create your models here.
+
+# STATUS = (
+#     ('active', 'Active'),
+#     ('inactive', 'Inactive'),
+# )
+
+
 class Category(models.Model):
     name = models.CharField(max_length=100)
-    activate = models.CharField(max_length=100, choices=STATUS)
+    status = models.CharField(max_length=100)
