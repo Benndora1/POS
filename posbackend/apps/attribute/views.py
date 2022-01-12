@@ -1,4 +1,3 @@
-from django.db.models import fields
 from django.shortcuts import render
 
 # Create your views here.
@@ -11,6 +10,19 @@ class AttributeSerializer(serializers.ModelSerializer):
         model = Attribute
         fields = ('name', 'status')
 
+
 class AtrributeViewSet(viewsets.ModelViewSet):
     queryset = Attribute.objects.all()
     serializer_class = AttributeSerializer
+
+
+class Attribute_ValueSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Attribute_Value
+        fields = ('value', 'attribute_id')
+
+
+class Attribute_ValueViewSet(viewsets.ModelViewSet):
+    queryset = Attribute_Value.objects.all()
+    serializer_class = Attribute_ValueSerializer
+    
