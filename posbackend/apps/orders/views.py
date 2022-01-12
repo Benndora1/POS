@@ -1,6 +1,8 @@
+from django.db import models
+from django.db.models import fields
 from rest_framework import serializers, viewsets
 
-from .models import Oder
+from .models import Oder, Oders_Item
 
 
 
@@ -16,3 +18,13 @@ class OderSerializer(serializers.ModelSerializer):
 class OderViewSet(viewsets.ModelViewSet):
     queryset = Oder.objects.all()
     serializer_class = OderSerializer 
+
+class Oder_ItemSerializer(serializers.ModelSerializer):
+    class Meta: 
+        model = Oders_Item
+        fields  = ('product_id','order_name','qty','rate', 'gross_amount')
+
+
+class Oder_ItemViewSet(viewsets.ModelViewSet):
+    queryset = Oders_Item.objects.all()
+    serializer_class = Oder_ItemSerializer

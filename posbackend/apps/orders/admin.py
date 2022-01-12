@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.admin.options import ModelAdmin
 from django.contrib import admin
-from .models import Oder
+from .models import Oder, Oders_Item
 
 
 class OderAdmin(admin.ModelAdmin):
@@ -9,3 +9,4 @@ class OderAdmin(admin.ModelAdmin):
     search_fields = ('customer_name',)
 
 admin.site.register(Oder, OderAdmin)
+admin.site.register(Oders_Item)
