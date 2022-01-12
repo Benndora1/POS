@@ -16,8 +16,8 @@ class Products(models.Model):
     image_url = models.CharField(max_length=255, null=True, blank=True)
     description = models.TextField(blank=True, null=True)
     availabilty = models.CharField(max_length=100)
-    attribute_id = models.ForeignKey(Attribute, on_delete=CASCADE, default=None)
-    brand_id = models.ForeignKey(Brands, on_delete=CASCADE, default=None)
-    category_id = models.ForeignKey(Category, on_delete=CASCADE, default=None)
+    attribute_id = models.ForeignKey(Attribute, default=None, on_delete=CASCADE)
+    brand_id = models.ForeignKey(Brands, on_delete=CASCADE, null=True)
+    category_id = models.ForeignKey(Category, on_delete=CASCADE, null=True)
 
     # store_id

@@ -1,6 +1,5 @@
 from django.db import models
-from django.db.models.deletion import CASCADE, SET_NULL
-from django.utils.translation import activate
+from django.db.models.deletion import CASCADE
 
 # Create your models here.
 class Attribute(models.Model):
